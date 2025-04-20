@@ -1,16 +1,62 @@
-# basketballcounter
+<p align="center">
+  <img src="assets/images/icon.png" alt="Points Counter Logo" width="200"/>
+</p>
 
-A new Flutter project.
+---
 
-## Getting Started
+# 🏀 Points Counter
 
-This project is a starting point for a Flutter application.
+**Points Counter** is a simple Flutter app that lets you track and update the score for two basketball teams in real time. Tap buttons to add 1, 2, or 3 points to Team A or Team B, and reset the scores with a single tap. Designed with a clean UI and smooth performance.
 
-A few resources to get you started if this is your first Flutter project:
+---
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## 🌟 Features
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- 🎯 Increment Team A or Team B by 1, 2, or 3 points
+- 🔄 Reset both scores to zero
+- 🟢 Consistent green-themed buttons and AppBar
+- 📐 Maintains original fixed sizes and styles
+- 📲 Scrollable & scales down automatically on small screens to prevent overflow
+
+---
+
+## 📸 Screenshots
+
+<p float="left">
+  <img src="assets/screen1.png" width="200"/>
+  <img src="assets/screen2.png" width="200"/>
+  <img src="assets/screen3.png" width="200"/>
+</p>
+
+---
+
+## 🛠️ Tech Stack
+
+- **Flutter** — UI toolkit
+- **Dart** — Programming language
+- **Material** — Built‑in components
+
+---
+
+## 📋 Requirements
+
+- ✅ Flutter 2.0 or higher
+- ✅ Dart SDK
+- ✅ An Android or iOS device/emulator
+
+---
+
+## ⚙️ Installation & Usage
+
+```bash
+# 1. Clone the repository
+git clone https://github.com/your-username/points-counter.git
+
+# 2. Navigate into the project directory
+cd points-counter
+
+# 3. Get dependencies
+flutter pub get
+
+# 4. Run on connected device/emulator
+flutter run
